@@ -4,7 +4,7 @@
   </head>
   <body>
     <h1>Welcome to Spring Web Example</h1>
-    <form action="/hello.html" method="post">
+    <form action="/hello" method="post">
       <input type="text" name="name">
       <button type="submit">Submit</button>
     </form>
