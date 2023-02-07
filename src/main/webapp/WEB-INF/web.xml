@@ -13,7 +13,7 @@
   </servlet>
   <servlet-mapping>
       <servlet-name>FormProcess</servlet-name>
-      <url-pattern>/</url-pattern>
+      <url-pattern>/form</url-pattern>
   </servlet-mapping>
   
 </web-app>

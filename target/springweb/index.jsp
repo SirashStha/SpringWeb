@@ -1,12 +1,13 @@
-<!DOCTYPE html>
 <html>
-    <head><title>Form</title></head>
-    
-    <body><!-- comment -->
-        Name:<input type="text" id="name" name="name"></br></br>
-        Email:<input type="text" id="email" name="email"></br></br>
-        <button ahref="register.jsp">SUBMIT</button>
-    </body>
-
-  </html>
+  <head>
+    <title>Spring Web Example</title>
+  </head>
+  <body>
+    <h1>Welcome to Spring Web Example</h1>
+    <form action="/hello" method="post">
+      <input type="text" name="name">
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
 
