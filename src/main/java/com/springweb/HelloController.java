@@ -17,6 +17,6 @@ public class HelloController {
   @PostMapping("/hello")
   public String sayHello(@RequestParam("name") String name, Model model) {
     model.addAttribute("name", name);
-    return "hello";
+    return "hello.html";
   }
 }
